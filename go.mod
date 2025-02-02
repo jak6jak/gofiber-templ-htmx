@@ -1,9 +1,11 @@
 module github.com/emarifer/gofiber-templ-htmx
 
-go 1.21.0
+go 1.23
+
+toolchain go1.23.5
 
 require (
-	github.com/a-h/templ v0.2.747
+	github.com/a-h/templ v0.3.833
 	github.com/gofiber/fiber/v2 v2.51.0
 )
 
@@ -21,5 +23,5 @@ require (
 	github.com/valyala/fasthttp v1.55.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	golang.org/x/crypto v0.24.0
-	golang.org/x/sys v0.21.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
 )
